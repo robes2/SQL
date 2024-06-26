@@ -27,6 +27,7 @@ FROM
     ELSE then END)
 
 Exercise: Find the number of companies that one investor has funded any amount in usa and then find the biggest sector. Then show the number of investments each sector has.
+
 select investor_name, 
 count(*) as num_of_investments 
 from tutorial.crunchbase_investments 
